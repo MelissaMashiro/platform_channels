@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 
-class PlatformChannel {
+class PlatformChannelExample {
   final MethodChannel _methodChannel = MethodChannel(
       'app.meli/my_platform_channel'); //nombre opcional, solo tener cuidado q no se repita cn el de algun plugin que use la app
 
